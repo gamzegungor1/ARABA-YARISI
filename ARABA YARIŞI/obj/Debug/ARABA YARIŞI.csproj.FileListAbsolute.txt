@@ -1,0 +1,10 @@
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\bin\Debug\ARABA YARIŞI.exe.config
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\bin\Debug\ARABA YARIŞI.exe
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\bin\Debug\ARABA YARIŞI.pdb
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA YARIŞI.csproj.AssemblyReference.cache
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA_YARIŞI.Form1.resources
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA_YARIŞI.Properties.Resources.resources
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA YARIŞI.csproj.GenerateResource.cache
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA YARIŞI.csproj.CoreCompileInputs.cache
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA YARIŞI.exe
+C:\Users\gamze\OneDrive\Masaüstü\WindowsFormUygulaması\ARABA YARIŞI\ARABA YARIŞI\obj\Debug\ARABA YARIŞI.pdb

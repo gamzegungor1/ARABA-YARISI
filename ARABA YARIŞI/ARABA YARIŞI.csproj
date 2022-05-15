@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7516236D-4F7F-407F-AAED-B9A51A984478}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ARABA_YARIŞI</RootNamespace>
+    <AssemblyName>ARABA YARIŞI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="arabayarış1\a5efb12f8f27e5ef364f3f2afd336794.jpg" />
+    <Content Include="arabayarış1\images.jpeg" />
+    <Content Include="arabayarış1\indir %281%29.jpeg" />
+    <Content Include="arabayarış1\indir.jpeg" />
+    <Content Include="arabayarış1\kisspng-sports-car-clip-art-overhead-car-cliparts-5ab73cb06fbec3.3416454815219580644577.jpg" />
+    <Content Include="arabayarış1\png-clipart-black-and-white-car-illustration-car-ford-mustang-audi-top-view-interior-design-services-transport.png" />
+    <Content Include="arabayarış1\png-clipart-cartoon-a-plan-view-of-car-compact-car-car-accident.png" />
+    <Content Include="arabayarış1\png-transparent-graphic-design-drawing-2d-computer-graphics-medieval-miscellaneous-text-photography.png" />
+    <Content Include="arabayarış1\png-transparent-sports-car-bird-s-eye-view-race-car-car-color-vehicle.png" />
+    <Content Include="arabayarış1\png-transparent-top-view-car-luxury-car-blue-car-thumbnail.png" />
+    <Content Include="arabayarış1\png-transparent-win-prize-trophy-cup-icon-gold-award-champion-golden-winner-thumbnail.png" />
+    <Content Include="arabayarış1\top-view-car-123292.png" />
+    <Content Include="arabayarış1\top-view-plan-view-5a2c2e9570aec8.1973484315128449494616 - Kopya.jpg" />
+    <Content Include="arabayarış1\top-view-plan-view-5a2c2e9570aec8.1973484315128449494616.jpg" />
+    <Content Include="arabayarış1\yol-714x536.png" />
+    <None Include="Resources\yol.png" />
+    <None Include="Resources\explosion-icegif-3.gif" />
+    <None Include="Resources\yol-714x536.jpg" />
+    <None Include="ArabaYarışı\yol-714x536.png" />
+    <None Include="ArabaYarışı\top-view-plan-view-5a2c2e9570aec8.1973484315128449494616.jpg" />
+    <None Include="ArabaYarışı\top-view-plan-view-5a2c2e9570aec8.1973484315128449494616 - Kopya.jpg" />
+    <None Include="ArabaYarışı\top-view-car-123292.png" />
+    <None Include="ArabaYarışı\png-transparent-win-prize-trophy-cup-icon-gold-award-champion-golden-winner-thumbnail.png" />
+    <None Include="ArabaYarışı\png-transparent-top-view-car-luxury-car-blue-car-thumbnail.png" />
+    <None Include="ArabaYarışı\png-transparent-sports-car-bird-s-eye-view-race-car-car-color-vehicle.png" />
+    <None Include="ArabaYarışı\png-transparent-graphic-design-drawing-2d-computer-graphics-medieval-miscellaneous-text-photography.png" />
+    <None Include="ArabaYarışı\png-clipart-cartoon-a-plan-view-of-car-compact-car-car-accident.png" />
+    <None Include="ArabaYarışı\png-clipart-black-and-white-car-illustration-car-ford-mustang-audi-top-view-interior-design-services-transport.png" />
+    <None Include="ArabaYarışı\kisspng-sports-car-clip-art-overhead-car-cliparts-5ab73cb06fbec3.3416454815219580644577.jpg" />
+    <None Include="ArabaYarışı\indir.jpeg" />
+    <None Include="ArabaYarışı\indir %281%29.jpeg" />
+    <None Include="ArabaYarışı\images.jpeg" />
+    <None Include="ArabaYarışı\a5efb12f8f27e5ef364f3f2afd336794.jpg" />
+    <Content Include="Properties\a5efb12f8f27e5ef364f3f2afd336794.jpg" />
+    <Content Include="Properties\top-view-car-123292.png" />
+    <Content Include="Properties\top-view-plan-view-5a2c2e9570aec8.1973484315128449494616 - Kopya.jpg" />
+    <Content Include="Properties\top-view-plan-view-5a2c2e9570aec8.1973484315128449494616.jpg" />
+    <Content Include="Properties\yol-714x536.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
